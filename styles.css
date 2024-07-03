@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #061f5d;
+    --primary-hover-color: #061f5d;
+    --background-color: #f4f4f9;
+    --text-color: #333;
+    --input-border-color: #ddd;
+    --container-bg-color: #fff;
+    --button-text-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+    /* background: linear-gradient(#ffe8a9,#fff2d0,#ffffff); */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: var(--container-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+#nameInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid var(--input-border-color);
+    border-radius: 5px;
+}
+
+#enterButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#enterButton:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.counter {
+    font-size: 48px;
+    margin: 20px 0;
+    color: var(--text-color);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
